@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:
+## Date: 16-04-2024
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -31,9 +31,166 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+```
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Book Cover</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color:rgb(241, 235, 243);
+    }
+
+    .book-cover {
+      width: 500px;
+      height: 700px;
+      background-color:rgb(0, 0, 0);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      margin: 50px auto;
+      position: relative;
+    }
+    
+    .book-cover .insight {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      font-size: 24px;
+      font-weight: bold;
+      color: rgb(218, 236, 27);
+    }
+    .book-cover .line1
+    {
+      position: absolute;
+      top: 40px;
+      left: 10px;
+      width: 80px;
+    }
+    .book-cover .title1 {
+      position: absolute;
+      top: 80px;
+      left: 60px;
+      font-size: 30px;
+      font-weight: bold;
+      color:  rgb(147, 174, 177);
+    }
+    
+
+    .book-cover .subtitle1 {
+      position: absolute;
+      top: 470px;
+      left: 20px;
+      font-size: 16px;
+      font-weight: bold;
+      color:  rgb(228, 243, 14);
+    }
+    .book-cover .subtitle2 {
+      position: absolute;
+      top: 500px;
+      left: 20px;
+      font-size: 16px;
+      font-weight: bold;
+      color: rgb(214, 230, 35);
+    }
+    .book-cover .subtitle3 {
+      position: absolute;
+      top: 530px;
+      left: 20px;
+      font-size: 16px;
+      font-weight: bold;
+      color: rgb(205, 229, 25);
+    }
+    .book-cover .line2
+    {
+      position: absolute;
+      top: 480px;
+      left: 20px;
+      width: 160px;
+    }
+    .book-cover .line3
+    {
+      position: absolute;
+      bottom:38px;
+      left: 20px;
+      width: 115px;
+    }
+
+
+    .book-cover .college {
+      position: absolute;
+      bottom: 25px;
+      left: 20px;
+      font-size: 14px;
+      color: rgb(52, 198, 45);
+    }
+    .book-cover .ed{
+      position: absolute;
+      bottom: 60px;
+      left: 18px;
+      font-size: 25px;
+      color: rgb(235, 236, 225);
+    }
+
+ 
+    .book-cover .end {
+      position: absolute;
+      bottom: 5px;
+      right: 30px;
+      font-size: 18px;
+      color: rgb(211, 231, 39);
+    }
+    .book-cover .mypic
+    {
+      position: relative;
+      top:550px;
+      left: 370px;
+      width : 8px;
+      height: 8px;
+      background-size:fit;
+    }
+
+
+    .book-cover .image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top:  0;
+      left: 10;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="book-cover">
+    <img src="book.png" alt="Book Cover" class="image">
+    <div class="insight">CYBER WORLD</div>
+    <div class="line1"><hr style="color:rgba(205, 255, 246, 0)"></div>
+    <div class="title1">  CYBER SECURITY </div>
+    <div class="subtitle1">Safeguarding The Future</div>
+    <div class="line2"><hr style="color:rgb(255, 235, 205)"></div>
+    <div class="subtitle2">*Navigating The Digital Landscape</div>
+    <div class="subtitle3">*Harnessing Technology For Cyber Resilience</div>
+    <div class="line3"><hr style="color:rgb(255, 247, 205)"></div>
+    <div class="mypic"><img src= "chandana.png"width="120" height="120" ></div>
+    <div class="ed"><b>Extended Edition</b></div>
+    <div class="end">YENDLURI CHANDANA</div>
+    
+
+    <div class="college">SAVEETHA ENGINEERING COLLEGE</div>
+
+  </div>
+</body>
+</html>
+```
+
 
 
 ## OUTPUT:
+![alt text](<Screenshot 2024-04-16 110533.png>)
 
 
 ## RESULT:
